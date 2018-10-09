@@ -125,7 +125,8 @@ end
 def play(board)
   turn(board)
  counter = 0
- until 
+ until counter < 9
+   counter += 1
 
 end
 end
