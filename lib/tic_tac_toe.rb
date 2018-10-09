@@ -123,7 +123,7 @@ def winner(board)
 end
 
 def play(board)
-  until over?(board) 
+  until over?(board)
     turn(board)
   end
   if won?(board)
@@ -131,4 +131,4 @@ def play(board)
   else draw?(board)
     puts "Cat's Game!"
   end
-end 
+end
