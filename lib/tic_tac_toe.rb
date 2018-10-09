@@ -121,3 +121,8 @@ def winner(board)
   return  board[win_combination.first]
   end
 end
+
+def play
+
+
+end
