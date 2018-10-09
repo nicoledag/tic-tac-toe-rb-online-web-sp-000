@@ -124,7 +124,8 @@ end
 
 def play(board)
   turn(board)
-until(over?(board))
+ counter = 0
+ until 
 
 end
 end
