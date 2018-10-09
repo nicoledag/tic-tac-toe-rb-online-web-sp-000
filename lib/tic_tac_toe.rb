@@ -127,10 +127,10 @@ def play(board)
   until(over?(board))
 
 
-  if(won?(board))
-    puts "Congratulations #{}!"
+  if won?(board)
+    puts "Congratulations!"
 elsif
-  (draw?(board))
+  draw?(board)
     puts "Cat's Game!"
   end
 end
