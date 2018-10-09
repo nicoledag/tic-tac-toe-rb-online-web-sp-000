@@ -123,10 +123,13 @@ def winner(board)
 end
 
 def play(board)
-  turn_count = 0
-  while turn_count < 9
-   turn(board)
-   turn_count += 1
+  until(over?(board))
+    turn(board)
+  end
+  if(won?(board))
+    puts "Congratulations #{winner(board)}!"
+  end
+  if(draw?(board))
+    puts "Cat's Game!"
   end
 end
-#
