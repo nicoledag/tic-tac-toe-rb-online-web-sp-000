@@ -123,5 +123,7 @@ def winner(board)
 end
 
 def play(board)
-  input = gets
+ counter = 0
+ until counter > 9
+   counter +=1
 end
